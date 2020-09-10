@@ -90,6 +90,10 @@ resource "azurerm_virtual_machine" "catapp" {
   location            = var.location
   resource_group_name = azurerm_resource_group.myresourcegroup.name
   vm_size             = var.vm_size
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 799b9ca0c4859e58ebe932198382b849a275e0a5
   tags                = {
     Billable = "true"
     Department = "devops"
